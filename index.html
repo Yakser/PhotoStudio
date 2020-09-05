@@ -4,7 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	
 	<link rel="stylesheet" href="css/style.css">
+
 	<title>PhotoStudio</title>
 </head>
 <body>
@@ -15,23 +17,64 @@
 			<div id="toggle" onclick="toggle()"></div>
 		</header>
 		<div class="content">
-			<h2>Привет! <br> Я <span>Сергей Рыжих</span></h2>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui consequuntur quia nesciunt quod ad odit maxime aliquam voluptatibus rem! Iste praesentium, eaque ipsa. Enim alias, quod veniam, eos amet omnis?</p>
-			<a href="#">Узнать больше</a>
+			<div class="content__block ">
+
+				<h2>Привет! <br> Я <span>Сергей Рыжих</span></h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui consequuntur quia nesciunt quod ad odit maxime aliquam voluptatibus rem! Iste praesentium, eaque ipsa. Enim alias, quod veniam, eos amet omnis?</p>
+				<a href="#" id="know-more">Узнать больше</a>
+
+			</div>
+			<div class="content__block">
+				<h2>Обо мне</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Libero facere delectus, voluptate cumque facilis dolor fuga dolorum optio, maxime omnis aliquam dolore ad distinctio magnam laudantium eos veniam, perspiciatis, molestiae!</p>
+			</div>
+			<div class="content__block">
+				<h2>Услуги</h2>
+				<div class="services">
+					<div class="services__item">
+						<img src="img/studio-photo.jpg" alt="">
+						<p>Студийная съемка</p>
+					</div>
+					<div class="services__item">
+						<img src="img/kaga.jpg" alt="">
+						<p>Свадебные фото</p>
+					</div>
+					<div class="services__item">
+						<img src="img/andreika-portret.jpg" alt="">
+						<p>Портрет</p>
+					</div>
+				</div>
+			</div>
+			<div class="content__block">
+				<h2>Мои работы</h2>
+			</div>
+			<div class="content__block">
+				<h2>Следите за моими соц. сетями</h2>
+				<ul class="contacts">
+					<li><a href="#"><img src="img/facebook.png" target="blank" alt=""></a></li>
+					<li><a href="https://vk.com/haggi33" target="blank"><img src="img/icon-vk.png" alt=""></a></li>
+					<li><a href="https://www.instagram.com/photosaratov164/">
+						<img src="img/icon-instagram.png" target="blank" alt="">
+					</a></li>
+					<li><a href="tel:123456789">+123456789</a></li>
+				</ul>
+			</div>
 		</div>
 		<ul class="sci">
-			<li><a href="#"><img src="img/facebook.png" alt=""></a></li>
-			<li><a href="#"><img src="img/linkedin.png" alt=""></a></li>
-			<li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+			<li><a href="#"><img src="img/facebook.png" target="blank" alt=""></a></li>
+			<li><a href="https://vk.com/haggi33" target="blank"><img src="img/icon-vk.png" alt=""></a></li>
+			<li><a href="https://www.instagram.com/photosaratov164/">
+				<img src="img/icon-instagram.png" target="blank" alt="">
+			</a></li>
 		</ul>
 	</section>
 	<div id="navigation">
 		<ul>
-			<li><a href="#">Главная</a></li>
-			<li><a href="#">Обо мне</a></li>
-			<li><a href="#">Услуги</a></li>
-			<li><a href="#">Портфолио</a></li>
-			<li><a href="#">Связь</a></li>
+			<li><a href="#" class="nav__link active-link">Главная</a></li>
+			<li><a href="#" class="nav__link">Обо мне</a></li>
+			<li><a href="#" class="nav__link">Услуги</a></li>
+			<li><a href="#" class="nav__link">Портфолио</a></li>
+			<li><a href="#" class="nav__link">Связь</a></li>
 		</ul>
 	</div>
 	<script src="js/script.js"></script>
