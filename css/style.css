@@ -125,6 +125,11 @@ header #toggle::after {
   border-bottom-color: #fff;
 }
 
+.content h3 {
+  color: #fff;
+  font-size: 2.5em;
+}
+
 .content {
   max-width: 600px;
 }
@@ -132,6 +137,7 @@ header #toggle::after {
 .content h2 {
   color: #fff;
   font-size: 2.5em;
+  text-align: center;
 }
 
 .content a {
@@ -202,6 +208,17 @@ header #toggle::after {
 
 .content__block h2 {
   margin-top: 10px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.content__block p span {
+  font-weight: 600;
+}
+
+.content__block p span.blue {
+  color: #40c3ff;
+  font-size: 1.2em;
 }
 
 .content__block {
@@ -315,6 +332,50 @@ header #toggle::after {
   border-radius: 15px;
 }
 
+/*
+.yakser{
+	font-size: 5rem;
+	text-align: center;
+
+	color: #fff;
+	 
+	font-family: 'Niconne', cursive;
+	font-weight: 700;
+    text-shadow:  3px 3px 0px #40c3ff, 
+                  6px 6px 0px #efa032, 
+                  9px 9px 0px #46b59b, 
+                  12px 12px 0px #017e7f, 
+                  15px 15px 0px #052939;
+                  
+}*/
+
+.underline {
+  color: #fefefe;
+  font-size: 1.2em;
+}
+
+.underline span {
+  background-image: linear-gradient(transparent calc(95%), #40c3ff 5px);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  display: inline;
+  transition: 0.5s ease;
+}
+
+.underline:hover span {
+  background-size: 100%;
+  color: #40c3ff;
+}
+
+h2 .underline span {
+  background-image: linear-gradient(transparent calc(95%), #fff 5px);
+  background-size: 10%;
+}
+
+h2 .underline:hover span {
+  background-size: 100%;
+}
+
 @media (max-width: 768px) {
   header {
     padding: 20px 50px;
@@ -361,6 +422,14 @@ header #toggle::after {
   .works__item {
     margin-top: 10px;
     margin-left: 0px;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .content h3 {
+    text-align: left;
   }
 }
 
